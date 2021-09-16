@@ -1,0 +1,57 @@
+body html{
+    height: 100%;
+}
+
+.container{
+    background-color: blanchedalmond;
+}
+
+.rotape{
+    height: 100px;
+    background-color:wheat;
+    padding-top: 70px;
+    margin-top: 60px;
+   
+}
+
+ .text-center{
+   width: 400px;
+   padding-top: 18px;
+   margin-left: 0px;
+}
+
+.blockquote  h4{
+    color: black;
+    font-size: 22px;
+    font-style:oblique
+}
+
+.clearfix p{
+    padding-top: 20px;
+    font-style:italic ;
+}
+
+@media (max-width: 700px)
+{
+  .clearfix img
+   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    
+   }
+
+ .blockquote  h4{
+    color: black;
+    font-size: 19px;
+    font-style:oblique;
+}
+
+.blockquote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
