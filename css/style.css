@@ -1,16 +1,24 @@
 body html{
     height: 100%;
+    background-color:#141414;
 }
 
+body {
+    background-color:#302f2f;
+}
+
+
 .container{
-    background-color: blanchedalmond;
+    background-color: #cdfcfc;
 }
 
 .rotape{
     height: 100px;
-    background-color:wheat;
+    background-color:#1A1A1A;
     padding-top: 70px;
     margin-top: 60px;
+    color: white;
+    border-top: white solid 1px;
    
 }
 
@@ -21,7 +29,7 @@ body html{
 }
 
 .blockquote  h4{
-    color: black;
+    color: rgb(190, 190, 3);
     font-size: 22px;
     font-style:oblique
 }
@@ -29,6 +37,12 @@ body html{
 .clearfix p{
     padding-top: 20px;
     font-style:italic ;
+    color:#302f2f;
+}
+
+.card-body{
+    background-color: #fafbfb;
+    color:#302f2f;
 }
 
 @media (max-width: 700px)
@@ -44,7 +58,7 @@ body html{
    }
 
  .blockquote  h4{
-    color: black;
+    color: rgb(190, 190, 3);
     font-size: 19px;
     font-style:oblique;
 }
