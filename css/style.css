@@ -12,6 +12,14 @@ body {
     background-color: #cdfcfc;
 }
 
+.pagina_produto{
+    margin-top: 10px;
+}
+
+.adicionar{
+    margin-top: 10px;
+}
+
 .rotape{
     height: 100px;
     background-color:#1A1A1A;
@@ -43,6 +51,11 @@ body {
 .card-body{
     background-color: #fafbfb;
     color:#302f2f;
+}
+
+.pagamento{
+ margin-top: 2px; 
+ width: 100%;
 }
 
 @media (max-width: 700px)
